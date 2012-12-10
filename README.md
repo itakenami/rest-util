@@ -5,12 +5,9 @@ Para criar o servidor (API-REST) recomenda-se o uso do PLAY_MODULE restapi. Este
 Também é possível utilizar o Arhetype Maven restee para criar uma aplicação REST-EE.
 
 ## Informações
-Tipo
-: LIB
-Finalidade
-: Auxiliar na criação de Servidores(PLAY e Java EE) e Clientes REST.
-Gerenciamento e Automação
-: Maven
+* **Tipo:** LIB
+* **Finalidade:** Auxiliar na criação de Servidores(PLAY e Java EE) e Clientes REST.
+* **Gerenciamento e Automação:** Maven
 
 ## Exemplos
 Clientes REST simples para fazer um POST em uma URL:
