@@ -34,7 +34,7 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>rest-util</finalName>
+
     </build>
 
     <dependencies>
