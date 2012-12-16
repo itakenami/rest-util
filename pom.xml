@@ -8,7 +8,19 @@
     <version>1.0</version>
     <packaging>jar</packaging>
     <name>RestUtil</name>
-    <url>http://maven.apache.org</url>
+    <url>https://github.com/itakenami</url>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    
+    <repositories>
+        <repository>
+            <id>takenami-m2.repository</id>
+            <name>Repositorio de Projetos Maven - Takenami</name>
+            <url>http://www.takenami.com.br/maven/release/</url>
+        </repository>
+    </repositories>
     
     <build>
         <plugins>
@@ -22,20 +34,8 @@
                 </configuration>
             </plugin>
         </plugins>
-		<finalName>rest-util</finalName>
+        <finalName>rest-util</finalName>
     </build>
-	
-    <repositories>
-		<repository>
-			<id>takenami-m2.repository</id>
-		    <name>Repositorio de Projetos Maven - Takenami</name>
-		    <url>http://www.takenami.com.br/maven/release/</url>
-		</repository>
-    </repositories>
-    
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
     <dependencies>
         
