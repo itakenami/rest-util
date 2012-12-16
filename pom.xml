@@ -22,7 +22,15 @@
         </repository>
     </repositories>
     
+    <distributionManagement>
+        <repository>
+            <id>ftp-repository</id>
+            <url>ftp://ftp.takenami.com.br/public_html/maven/release</url>
+        </repository>
+    </distributionManagement>
+    
     <build>
+        
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -34,6 +42,15 @@
                 </configuration>
             </plugin>
         </plugins>
+        
+        <extensions>
+            <!-- Enabling the use of FTP -->
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ftp</artifactId>
+                <version>1.0-beta-6</version>
+            </extension>
+        </extensions>
 
     </build>
 
